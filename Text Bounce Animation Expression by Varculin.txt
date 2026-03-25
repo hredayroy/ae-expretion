@@ -1,0 +1,13 @@
+delay = 0.06;
+myDelay = delay*textIndex;
+t = (time - inPoint) - myDelay;
+if (t >= 0) {
+  freq =1.8;
+  amplitude = 120;
+  decay = 4.5;
+  s = amplitude*Math.cos(freq*t*2*Math.PI)/Math.exp(decay*t);
+  [s,s]
+}
+else {
+  value
+}
